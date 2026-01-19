@@ -153,7 +153,7 @@ class MenuDemoApp(tk.Tk):
             *self.languages,
             command=self.option_changed)
 
-        option_menu.grid(column=0, row=2, sticky=tk.W, **paddings)
+        option_menu.grid(column=0, row=2, sticky=tk.W, **paddings)  # ig
 
         # Output label inside Frame 3 (Row 3)
         self.output_label = ttk.Label(self.frame_3, foreground='red')
